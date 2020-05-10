@@ -79,7 +79,7 @@ namespace AgendaProject
 
         public void DeleteContact()
         {
-            Clear();
+            Clear(); 
 
             Console.WriteLine("Enter the name of the contact");
             string name = Console.ReadLine();
