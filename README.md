@@ -1,22 +1,21 @@
 
 # Agenda Project
 
-The Agenda Project is a simple contact management application built to help users organize and manage their personal or professional contacts. It allows adding, editing, and deleting contact information, along with a user-friendly interface for quick access.
+The Agenda Project is a contact management application built using C#. It is designed to help users organize and manage their personal or professional contacts efficiently.
 
 ## Features
 
-- **Add Contacts:** Easily add new contacts with relevant details.
-- **Edit Contacts:** Modify existing contact information as needed.
+- **Add Contacts:** Add new contacts with details like name, phone number, and email.
+- **Edit Contacts:** Update existing contact information.
 - **Delete Contacts:** Remove contacts from the list.
-- **Search Contacts:** Quickly find a contact using the search functionality.
-- **User-Friendly Interface:** Simple and intuitive design for easy navigation.
+- **Search Contacts:** Quickly find a contact using a search function.
+- **User-Friendly Interface:** Clean and intuitive UI built with Windows Forms.
 
 ## Technologies Used
 
-- **Frontend:** HTML, CSS, and JavaScript
-- **Backend:** Node.js, Express
-- **Database:** SQLite (or any other database as configured)
-- **Templating Engine:** EJS (Embedded JavaScript Templates)
+- **Language:** C#
+- **Framework:** .NET Framework (or .NET Core if specified in the project)
+- **UI Library:** Windows Forms
 
 ## Installation and Setup
 
@@ -26,32 +25,25 @@ The Agenda Project is a simple contact management application built to help user
    cd AgendaProject
    ```
 
-2. **Install dependencies:**
-   Before running the project, ensure all necessary packages are installed.
-   ```bash
-   npm install
-   ```
+2. **Open the project:**
+   - Open the solution file (`.sln`) in Visual Studio.
 
-3. **Set up the database:**
-   - Ensure SQLite (or your chosen database) is installed.
-   - Run any provided migration or initialization scripts to set up the database.
+3. **Build the project:**
+   - Use the "Build" option in Visual Studio to compile the code.
 
-4. **Start the application:**
-   ```bash
-   npm start
-   ```
-   The application will run in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+4. **Run the application:**
+   - Start the application directly from Visual Studio by pressing `F5` or selecting "Start Debugging."
 
 ## Usage
 
 1. **Add New Contact:**
-   Click the "Add Contact" button and fill out the form to add a new contact to your list.
-2. **Edit Contact:**
-   Select a contact and click "Edit" to update their details.
+   - Use the "Add" button to input new contact details.
+2. **Edit Existing Contact:**
+   - Select a contact from the list and use the "Edit" option to update details.
 3. **Delete Contact:**
-   Click the "Delete" button next to a contact to remove them.
+   - Select a contact and use the "Delete" button to remove it.
 4. **Search Contacts:**
-   Use the search bar to quickly find contacts by name.
+   - Enter a keyword in the search bar to quickly find contacts.
 
 ## Contributing
 
@@ -78,4 +70,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For questions or suggestions, please contact [your-email@example.com](mailto:your-email@example.com).
+For questions or suggestions, please contact me.
